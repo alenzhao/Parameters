@@ -1,0 +1,12 @@
+Package: Parameters
+Type: Package
+Title: General-Purpose YAML-based Parameter access
+Version: 0.9.5
+Date: 2012-08-04
+Author: Paul Shannon
+Maintainer:  <pshannon@fhcrc.org>
+Depends: R (>= 2.15.1), yaml (>= 2.1.4)
+Suggests: RUnit, BiocGenerics
+Description:  Read and modify categorized parameter setting, useful in setting up heavily parameterized methods
+License: GPL
+LazyLoad: yes

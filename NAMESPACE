@@ -1,0 +1,14 @@
+import(methods)
+
+exportClasses(
+   Parameters
+)
+exportMethods(
+  value, "value<-",
+  getAll, 
+  categories
+)
+
+export (
+  Parameters
+  )

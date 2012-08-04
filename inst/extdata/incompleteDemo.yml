@@ -1,0 +1,27 @@
+inputDir: inputs
+outputDir: outputs
+dataPackageName: NULL
+dataSetName: NULL
+numBoots: int 10
+tau: 45
+delT_max: int 110
+delT_min: int 0
+sweepOut: FALSE
+priorWeight1: 0.01
+priorWeight2: 1
+usePrior: TRUE
+prior.from.mcz: FALSE
+perc.tp: int 100
+perm.tp: int 1
+perc.fp: int 0
+perm.fp: int 1
+tp.only: TRUE
+fp.only: FALSE
+priors.tp.fp.mix: FALSE
+runInfNoPriors: FALSE
+runEnet: TRUE
+calc.results: TRUE
+runBayesian: FALSE
+AAA:
+  car towing
+zzTop: band

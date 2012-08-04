@@ -1,0 +1,66 @@
+general:
+   inputDir: inputs
+   outputDir: outputs
+   dataPackageName: NULL
+   dataSetName: NULL
+   numBoots: 10
+   tau: 45
+   delT_max: 110
+   delT_min: 0
+   sweepOut: FALSE
+   priorWeight: [0.01, 1.0]
+   usePrior: TRUE
+   prior.from.mcz: FALSE
+   perc.tp: 100
+   perm.tp: 1
+   perc.fp: 0
+   perm.fp: 1
+   tp.only: TRUE
+   fp.only: FALSE
+   priors.tp.fp.mix: FALSE
+   runInfNoPriors: FALSE
+   runEnet: TRUE
+   calc.results: TRUE
+   runBayesian: FALSE
+   MCZ_fltr_prcntile: 0.5
+   z_score_co: 2
+   qtile_co: 1
+   pko_rerank_qtile: 0.99
+   processorsNumber: 4
+   koFilter: FALSE
+   pkoFilter: FALSE
+   pkoCombine: FALSE
+   verbose: FALSE
+   splitAllRes: TRUE
+   saveInterval: 5
+   inf.version: nwInf.1.2
+   runDate: Thu Aug  2 20:40:35 2012
+   use_t0_as_steady_state: FALSE
+   use_mixCLR: TRUE
+   use_delt_bigger_than_delT_max: TRUE
+
+
+bayes:
+   all.weights.pairs: TRUE
+   zellner.g: 3
+   zellner.g.pr: 1
+
+clr:
+   numGenes: 0
+   speedUp: FALSE
+   what_final_design_response_matrix: all
+
+comb.terms:
+   comb.func: min
+   use.comb.terms: FALSE
+
+
+lars:
+   center.mod.refit: FALSE
+   max_single_preds: 15
+   sparseModels: TRUE
+   use.beta.contrib: TRUE
+   useBias: TRUE
+   weight.global.refit: FALSE
+   what_final_design_response_matrix: all
+

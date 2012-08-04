@@ -1,0 +1,41 @@
+inputDir: inputs
+outputDir: outputs
+dataPackageName: NULL
+dataSetName: NULL
+numBoots: int 10
+tau: 45
+delT_max: int 110
+delT_min: int 0
+sweepOut: FALSE
+priorWeight1: 0.01
+priorWeight2: 1
+usePrior: TRUE
+prior.from.mcz: FALSE
+perc.tp: int 100
+perm.tp: int 1
+perc.fp: int 0
+perm.fp: int 1
+tp.only: TRUE
+fp.only: FALSE
+priors.tp.fp.mix: FALSE
+runInfNoPriors: FALSE
+runEnet: TRUE
+calc.results: TRUE
+runBayesian: FALSE
+MCZ_fltr_prcntile: 0.5
+z_score_co: int 2
+qtile_co: int 1
+pko_rerank_qtile: 0.99
+processorsNumber: int 4
+koFilter: FALSE
+pkoFilter: FALSE
+pkoCombine: FALSE
+verbose: FALSE
+splitAllRes: TRUE
+saveInterval: int 5
+inf.version: nwInf.1.2
+runDate: Jul_30_2012_09:49:43
+data: DREAM4_1_10
+use_t0_as_steady_state: FALSE
+use_mixCLR: TRUE
+use_delt_bigger_than_delT_max: TRUE
