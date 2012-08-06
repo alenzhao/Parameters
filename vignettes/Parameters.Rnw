@@ -1,6 +1,6 @@
-%\VignetteIndexEntry{DemoPackage Overview}
-%\VignetteDepends{DemoPackage}
-%\VignettePackage{DemoPackage}
+%\VignetteIndexEntry{Parameters Overview}
+%\VignetteDepends{Parameters}
+%\VignettePackage{Parameters}
 
 \documentclass[12pt]{article}
 
@@ -30,14 +30,14 @@
 \bibliographystyle{plainnat}
 
 
-\title{DemoPackage}
+\title{Parameters}
 \author{Paul Shannon}
 
 \begin{document}
 
 \maketitle
 
-\emph{DemoPackage} is a nearly empty R package for you, the R programmer, to adopt and adapt to your own purposes.  
+\emph{Parameters} is a nearly empty R package for you, the R programmer, to adopt and adapt to your own purposes.  
 
 \section{More Help}
 Vignettes are an amalgamation of R code and TeX documents.  They can be bewildering.  A possibly useful example is the one I wrote for the RCytoscape package, which can be obtained using these steps:

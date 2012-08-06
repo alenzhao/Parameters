@@ -38,15 +38,15 @@ setMethod ('getAll',  'Parameters',
     })
 #------------------------------------------------------------------------------------------------------------------------
 # 4 possible values for 'arg':
-#   NULL:  return an empty but otherwise fully functional Parameters object
+#   NA:  return an empty but otherwise fully functional Parameters object
 #   is.character:  a package name, with a 'defaultParams.yml' file in its extdata directory.  load those into obj and return obj
 #   is.character:  a yaml filename containing configuration parameters.  load assignments from that yaml file, return obj
 #   is.list:  a bunch of hand-specified parameters.  might be a list of lists, in standard yaml format.  load them all.
-Parameters = function (arg=NULL)
+Parameters = function (arg=NA)
 {
   obj = new ('Parameters')
 
-  if (is.null (arg))
+  if (is.na (arg))
     return (obj)
 
   if (is.character (arg)) {
@@ -57,9 +57,9 @@ Parameters = function (arg=NULL)
        }
       # was not a filename. is it a package name?  if so, look for extdata/defaultParams.yml
     packagePath = find.package (arg, quiet=TRUE)
-    if (length (packagePath) == 0) {  # could not find package.  not an explicit file.  indicate failure, return NULL
+    if (length (packagePath) == 0) {  # could not find package.  not an explicit file.  indicate failure, return NA
       message (sprintf ('Parameters could not find file or installed package with name\n    %s', arg))
-      return (NULL)
+      return (NA)
       }
 
     if (file.exists (packagePath)) {
