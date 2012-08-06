@@ -1,4 +1,4 @@
 rm (list=ls())
-library (DemoPackage)
+library (Parameters)
 sessionInfo ()
-DemoPackage:::.test ()
+Parameters:::.test ()
