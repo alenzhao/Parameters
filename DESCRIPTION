@@ -1,7 +1,7 @@
 Package: Parameters
 Type: Package
 Title: Parameters: general purpose YAML-based parameter access
-Version: 0.99.1
+Version: 0.99.2
 Date: 2012-09-19
 Author: Paul Shannon
 Maintainer:  <pshannon@fhcrc.org>
